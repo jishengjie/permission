@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jsj.permission.MainActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_gravity="center"
+        app:flexWrap="wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/camera_p"
+            android:text="相机权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/photo_p"
+            android:text="相册权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/location_p"
+            android:text="地理位置权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/phone_p"
+            android:text="电话权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/storage_p"
+            android:text="文件读取权限"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>
